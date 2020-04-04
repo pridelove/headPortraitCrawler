@@ -6,3 +6,7 @@
 # # res = html.xpath('//div//ul[@class="g-piclist-container"]//li//img//@data-src')
 # # print(res)
 from lxml import etree
+import re
+
+str ='https://m.woyaogexing.com/touxiang/nv/2020/969070.html'
+print(re.findall(r'/touxiang/[a-z]{0,7}/',str))

@@ -11,5 +11,5 @@ import scrapy
 class HeadportraitItem(scrapy.Item):
     image_urls = scrapy.Field()
     images = scrapy.Field()
-    #测试分类
-    cateages=scrapy.Field()
+    #标题
+    title=scrapy.Field()
